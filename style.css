@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    height:800px;
+    background-color:rgb(50, 71, 167);
+    text-align:center;
+}
+.main h1{
+font-size:40px;
+padding-top:30px;
+color:white;
+
+}
+.main i{
+font-size:30px;
+color:white;
+}
+.persons{
+    margin-top:20px;
+display:flex;
+justify-content: center;
+}
+.person-1{
+    width:250px;
+    height:550px;
+    background-color: aliceblue;
+    border-radius:30px;
+    float:left;
+    text-align:center;
+    margin:20px;
+    padding:5px;
+    line-height:1.5;
+}
+.person-2{
+    width:250px;
+    height:550px;
+    background-color: aliceblue;
+    border-radius:30px;
+    float:left;
+    text-align:center;
+    margin:20px;
+    padding:5px;
+    line-height:1.5;
+
+}
+.person-3{
+    width:250px;
+    height:550px;
+    background-color: aliceblue;
+    border-radius:30px;
+    float:left;
+    text-align:center;
+    margin:20px;
+    padding:5px;
+    line-height:1.5;
+
+}
+.person-4{
+    width:250px;
+    height:550px;
+    background-color: aliceblue;
+    border-radius:30px;
+    float:left;
+    text-align:center;
+    margin:20px;
+    padding:5px;
+    line-height:1.5;
+}
+.person-1 img{
+    border-radius:50%;
+    margin-top:20px;
+}
+.person-2 img{
+    border-radius:50%;
+    margin-top:20px;
+}
+.person-3 img{
+    border-radius:50%;
+    margin-top:20px;
+}
+.person-4 img{
+    border-radius:50%;
+    margin-top:20px;
+}
+.persons h3{
+color:darkorchid;
+font-weight:normal;
+}
+.persons h2{
+font-weight: normal;
+margin-top:30px;
+}
+.persons i{
+    color:black;
+    font-size:16px;
+}
+ul li{
+    line-height:0;
+    list-style-type:none;
+    float:left;
+    margin:20px;
+    text-align:center;
+}
+.fa-twitter{
+    color:darkorchid !important;
+    font-size:70px;
+    margin-left:40px;
+}
+.fa-instagram{
+    color:darkorchid !important;
+    font-size:70px;
+}
+.fa-linkedin{
+    color:darkorchid !important;
+    font-size:70px;
+}
+.fa-twitter:hover{
+    border-radius:50%;
+    background-color:rgb(54, 34, 54);
+    width:30px;
+    height:30px;
+    text-align: center;
+    transition:0.5s;
+}
+.fa-instagram:hover{
+    border-radius:50%;
+    background-color:rgb(54, 34, 54);
+    width:30px;
+    height:30px;
+    text-align: center;
+    transition:0.5s;
+}
+.fa-linkedin:hover{
+    border-radius:50%;
+    background-color:rgb(54, 34, 54);
+    width:30px;
+    height:30px;
+    text-align: center;
+    transition:0.5s;
+}
